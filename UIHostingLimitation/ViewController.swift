@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     lazy var button: UIButton = {
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
         button.addTarget(self, action:#selector(self.randomBackgroundColor), for: .touchUpInside)
-        button.setTitle("Tap", for: .normal)
+        button.setTitle("Tappable?", for: .normal)
         button.backgroundColor = .red
         button.titleLabel?.textColor = .white
         button.layer.cornerRadius = 5
@@ -34,8 +34,8 @@ class ViewController: UIViewController {
         return hostingController
     }()
     
-    lazy var expandingViewAnimatedExpected: UIHostingController<ExpandingViewAnimatedExpected> = {
-        let hostingController = UIHostingController(rootView: ExpandingViewAnimatedExpected())
+    lazy var expandingViewAnimatedExpected: UIHostingController<ExpandingViewExpectedAnimation> = {
+        let hostingController = UIHostingController(rootView: ExpandingViewExpectedAnimation())
         hostingController.sizingOptions = .intrinsicContentSize
         hostingController.view.backgroundColor = .clear
         return hostingController

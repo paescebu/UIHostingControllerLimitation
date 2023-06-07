@@ -1,5 +1,5 @@
 //
-//  ExpandingViewAnimatedExpected.swift
+//  ExpandingViewExpectedAnimation.swift
 //  UIHostingLimitation
 //
 //  Created by Pascal Burlet on 07.06.23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExpandingViewAnimatedExpected: View {
+struct ExpandingViewExpectedAnimation: View {
     @State var isExpanded = false
     
     var body: some View {
@@ -33,8 +33,8 @@ struct ExpandingViewAnimatedExpected: View {
 }
 
 
-struct ExpandingViewAnimatedExpected_Previews: PreviewProvider {
+struct ExpandingViewExpectedAnimation_Previews: PreviewProvider {
     static var previews: some View {
-        ExpandingViewAnimatedExpected()
+        ExpandingViewExpectedAnimation()
     }
 }

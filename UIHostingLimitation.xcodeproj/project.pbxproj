@@ -16,7 +16,7 @@
 		5904ED3C2A3106210075AC36 /* ExpandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904ED3B2A3106210075AC36 /* ExpandingView.swift */; };
 		5904ED3E2A3107000075AC36 /* ExpandingViewAnimated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904ED3D2A3107000075AC36 /* ExpandingViewAnimated.swift */; };
 		5904ED422A31084E0075AC36 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904ED412A31084E0075AC36 /* UIColor+Random.swift */; };
-		5904ED442A310CD20075AC36 /* ExpandingViewExpected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904ED432A310CD20075AC36 /* ExpandingViewExpected.swift */; };
+		5904ED442A310CD20075AC36 /* ExpandingViewExpectedAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5904ED432A310CD20075AC36 /* ExpandingViewExpectedAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		5904ED3B2A3106210075AC36 /* ExpandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingView.swift; sourceTree = "<group>"; };
 		5904ED3D2A3107000075AC36 /* ExpandingViewAnimated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingViewAnimated.swift; sourceTree = "<group>"; };
 		5904ED412A31084E0075AC36 /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
-		5904ED432A310CD20075AC36 /* ExpandingViewExpected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingViewExpected.swift; sourceTree = "<group>"; };
+		5904ED432A310CD20075AC36 /* ExpandingViewExpectedAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingViewExpectedAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			children = (
 				5904ED3B2A3106210075AC36 /* ExpandingView.swift */,
 				5904ED3D2A3107000075AC36 /* ExpandingViewAnimated.swift */,
-				5904ED432A310CD20075AC36 /* ExpandingViewExpected.swift */,
+				5904ED432A310CD20075AC36 /* ExpandingViewExpectedAnimation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5904ED442A310CD20075AC36 /* ExpandingViewExpected.swift in Sources */,
+				5904ED442A310CD20075AC36 /* ExpandingViewExpectedAnimation.swift in Sources */,
 				5904ED2C2A3106060075AC36 /* ViewController.swift in Sources */,
 				5904ED282A3106060075AC36 /* AppDelegate.swift in Sources */,
 				5904ED2A2A3106060075AC36 /* SceneDelegate.swift in Sources */,
